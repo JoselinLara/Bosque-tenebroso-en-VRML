@@ -1,0 +1,699 @@
+#VRML V2.0 utf8
+
+Transform {		 #Piso
+	translation	0 -1 0
+	rotation 1 0 0 1.57
+	children [
+Shape { geometry Box {size 50 53 .5 }
+	appearance Appearance {texture ImageTexture {url "Imagenes/piso1.jpg"}
+		textureTransform TextureTransform {
+			scale 20 20}
+	
+
+	}
+
+
+
+}
+
+	Transform {
+	translation	50 0 0
+	children [
+Shape { geometry Box {size 50 53 .5 }
+	appearance Appearance {texture ImageTexture {url "Imagenes/pasto.jpg"}
+		textureTransform TextureTransform {
+			scale 20 20}
+	
+
+	}
+
+
+
+}
+]
+}
+
+Transform {
+	translation	0 50 0
+	children [
+Shape { geometry Box {size 50 50 .5 }
+	appearance Appearance {texture ImageTexture {url "Imagenes/piso3.jpg"}
+		textureTransform TextureTransform {
+			scale 20 20}
+	
+
+	}
+
+
+
+}
+]
+}
+
+Transform {
+	translation	50 50 0
+	children [
+Shape { geometry Box {size 50 50 .5 }
+	appearance Appearance {texture ImageTexture {url "Imagenes/piso4.jpg"}
+		textureTransform TextureTransform {
+			scale 20 20}
+	
+
+	}
+
+
+
+}
+]
+}
+
+]
+	
+}
+
+
+
+PROTO Arbol1[
+
+	field SFVec3f Direccion 0 1.5 0
+
+]
+
+
+{
+
+Transform {		 #arboles
+	translation IS	Direccion
+	children [
+	Billboard {
+	axisOfRotation 0 1 0
+	children Shape {
+		geometry IndexedFaceSet {
+			coord Coordinate {
+				point [ 2 3 0, -2 3 0, -2 -3 0, 2 -3 0 ]
+			}
+			coordIndex [ 0 1 2 3 ]
+			solid FALSE
+			texCoord TextureCoordinate {
+				point [ 1 1, 0 1, 0 0, 1 0 ]
+			}
+		}
+		appearance Appearance {
+			texture ImageTexture {
+				url "arbol1.gif"
+			}
+		}
+
+	}
+}
+
+]
+
+	
+}
+
+}
+
+
+
+PROTO Arbol2[
+
+	field SFVec3f Direccion 0 1.5 0
+
+]
+
+
+{
+
+Transform {		 #arboles
+	translation IS	Direccion
+	children [
+Billboard {
+	axisOfRotation 0 1 0
+	children Shape {
+		geometry IndexedFaceSet {
+			coord Coordinate {
+				point [ 2 3 0, -2 3 0, -2 -3 0, 2 -3 0 ]
+			}
+			coordIndex [ 0 1 2 3 ]
+			solid FALSE
+			texCoord TextureCoordinate {
+				point [ 1 1, 0 1, 0 0, 1 0 ]
+			}
+		}
+		appearance Appearance {
+			texture ImageTexture {
+				url "Imagenes/arbol2.gif"
+			}
+		}
+
+	}
+}
+
+]
+
+	
+}
+
+}
+
+
+
+PROTO Arbol3[
+
+	field SFVec3f Direccion 0 1.5 0
+
+]
+
+
+{
+
+Transform {		 #arboles
+	translation IS	Direccion
+	children [
+Billboard {
+	axisOfRotation 0 1 0
+	children Shape {
+		geometry IndexedFaceSet {
+			coord Coordinate {
+				point [ 2 3 0, -2 3 0, -2 -3 0, 2 -3 0 ]
+			}
+			coordIndex [ 0 1 2 3 ]
+			solid FALSE
+			texCoord TextureCoordinate {
+				point [ 1 1, 0 1, 0 0, 1 0 ]
+			}
+		}
+		appearance Appearance {
+			texture ImageTexture {
+				url "Imagenes/arbol3.gif"
+			}
+		}
+
+	}
+}
+
+]
+
+	
+}
+
+}
+
+
+
+PROTO Arbol4[
+
+	field SFVec3f Direccion 0 1.5 0
+
+]
+
+
+{
+
+Transform {		 #arboles
+	translation IS	Direccion
+	children [
+Billboard {
+	axisOfRotation 0 1 0
+	children Shape {
+		geometry IndexedFaceSet {
+			coord Coordinate {
+				point [ 2 3 0, -2 3 0, -2 -3 0, 2 -3 0 ]
+			}
+			coordIndex [ 0 1 2 3 ]
+			solid FALSE
+			texCoord TextureCoordinate {
+				point [ 1 1, 0 1, 0 0, 1 0 ]
+			}
+		}
+		appearance Appearance {
+			texture ImageTexture {
+				url "Imagenes/arbol4.gif"
+			}
+		}
+
+	}
+}
+
+]
+
+	
+}
+
+}
+
+PROTO Arbol5[
+
+	field SFVec3f Direccion 0 1.5 0
+
+]
+
+
+{
+
+Transform {		 #arboles
+	translation IS	Direccion
+	children [
+Billboard {
+	axisOfRotation 0 1 0
+	children Shape {
+		geometry IndexedFaceSet {
+			coord Coordinate {
+				point [ 2 3 0, -2 3 0, -2 -3 0, 2 -3 0 ]
+			}
+			coordIndex [ 0 1 2 3 ]
+			solid FALSE
+			texCoord TextureCoordinate {
+				point [ 1 1, 0 1, 0 0, 1 0 ]
+			}
+		}
+		appearance Appearance {
+			texture ImageTexture {
+				url "Imagenes/arbol5.gif"
+			}
+		}
+
+	}
+}
+
+]
+
+	
+}
+
+}
+
+
+
+Arbol1 {Direccion -24  1.5 74 }
+Arbol1 {Direccion -24  1.5 72 }
+Arbol2 {Direccion -24  1.5 70}
+Arbol3 {Direccion -24  1.5 68}
+Arbol4 {Direccion -24  1.5 65}
+Arbol5 {Direccion -24  1.5 60}
+Arbol1 {Direccion -24  1.5 55 }
+Arbol1 {Direccion -24  1.5 50 }
+Arbol2 {Direccion -24  1.5 45}
+Arbol3 {Direccion -24  1.5 40}
+Arbol4 {Direccion -24  1.5 38}
+Arbol5 {Direccion -24  1.5 35}
+Arbol1 {Direccion -24  1.5 30 }
+Arbol2 {Direccion -24  1.5 25}
+Arbol3 {Direccion -24  1.5 23}
+Arbol4 {Direccion -24  1.5 20}
+Arbol5 {Direccion -24  1.5 18}
+Arbol1 {Direccion -24  1.5 15 }
+Arbol1 {Direccion -24  1.5 10 }
+Arbol2 {Direccion -24  1.5 8}
+Arbol3 {Direccion -24  1.5 5}
+Arbol4 {Direccion -24  1.5 3}
+Arbol5 {Direccion -24  1.5 0}
+Arbol1 {Direccion -24  1.5 -5 }
+Arbol1 {Direccion -24  1.5 -7 }
+Arbol2 {Direccion -24  1.5 -10}
+Arbol3 {Direccion -24  1.5 -15}
+Arbol1 {Direccion -24  1.5 -20 }
+Arbol1 {Direccion -24  1.5 -25 }
+
+
+	Arbol1 {Direccion -19  1.5 74 }
+	Arbol1 {Direccion -18  1.5 72 }
+	Arbol2 {Direccion -17  1.5 70}
+	Arbol3 {Direccion -18  1.5 68}
+	Arbol4 {Direccion -17  1.5 65}
+	Arbol5 {Direccion -20  1.5 60}
+	Arbol1 {Direccion -20  1.5 55 }
+	Arbol1 {Direccion -20  1.5 50 }
+	Arbol2 {Direccion -20  1.5 45}
+	Arbol3 {Direccion -19  1.5 40}
+	Arbol4 {Direccion -18  1.5 38}
+	Arbol5 {Direccion -17  1.5 35}
+	Arbol1 {Direccion -18  1.5 30 }
+	Arbol2 {Direccion -20  1.5 25}
+	Arbol3 {Direccion -20  1.5 23}
+	Arbol4 {Direccion -20  1.5 20}
+	Arbol5 {Direccion -17  1.5 18}
+	Arbol1 {Direccion -17  1.5 15 }
+	Arbol1 {Direccion -17  1.5 10 }
+	Arbol2 {Direccion -20  1.5 8}
+	Arbol3 {Direccion -20  1.5 5}
+	Arbol4 {Direccion -21  1.5 3}
+	Arbol5 {Direccion -20  1.5 0}
+	Arbol1 {Direccion -20  1.5 -5 }
+	Arbol1 {Direccion -20  1.5 -7 }
+	Arbol2 {Direccion -21  1.5 -10}
+	Arbol3 {Direccion -21  1.5 -15}
+	Arbol1 {Direccion -21  1.5 -20 }
+	Arbol1 {Direccion -21  1.5 -25 }
+
+
+
+	Arbol1 {Direccion -15  1.5 74 }
+	Arbol1 {Direccion -14  1.5 72 }
+	Arbol2 {Direccion -13  1.5 70}
+	Arbol3 {Direccion -12  1.5 68}
+	Arbol4 {Direccion -15  1.5 65}
+	Arbol5 {Direccion -15  1.5 60}
+	Arbol1 {Direccion -15  1.5 55 }
+	Arbol1 {Direccion -15  1.5 50 }
+	Arbol2 {Direccion -15  1.5 45}
+	Arbol3 {Direccion -15  1.5 40}
+	Arbol4 {Direccion -15  1.5 38}
+	Arbol5 {Direccion -15  1.5 35}
+	Arbol1 {Direccion -14  1.5 30 }
+	Arbol2 {Direccion -15  1.5 25}
+	Arbol3 {Direccion -13  1.5 23}
+	Arbol4 {Direccion -13  1.5 20}
+	Arbol5 {Direccion -13  1.5 18}
+	Arbol1 {Direccion -14  1.5 15 }
+	Arbol1 {Direccion -12  1.5 10 }
+	Arbol2 {Direccion -12  1.5 8}
+	Arbol3 {Direccion -12  1.5 5}
+	Arbol4 {Direccion -12  1.5 3}
+	Arbol5 {Direccion -12  1.5 0}
+	Arbol1 {Direccion -13  1.5 -5 }
+	Arbol1 {Direccion -14  1.5 -7 }
+	Arbol2 {Direccion -14  1.5 -10}
+	Arbol3 {Direccion -14  1.5 -15}
+	Arbol1 {Direccion -15  1.5 -20 }
+	Arbol1 {Direccion -15  1.5 -25 }
+
+
+
+	Arbol1 {Direccion -10  1.5 74 }
+	Arbol1 {Direccion -11  1.5 72 }
+	Arbol2 {Direccion -8  1.5 70}
+	Arbol3 {Direccion -7  1.5 68}
+	Arbol4 {Direccion -6  1.5 65}
+	Arbol5 {Direccion -6  1.5 60}
+	Arbol1 {Direccion -10  1.5 55 }
+	Arbol1 {Direccion -10  1.5 50 }
+	Arbol2 {Direccion -10  1.5 45}
+	Arbol3 {Direccion -9  1.5 40}
+	Arbol4 {Direccion -8  1.5 38}
+	Arbol5 {Direccion -7  1.5 35}
+	Arbol1 {Direccion -6  1.5 30 }
+	Arbol2 {Direccion -6  1.5 25}
+	Arbol3 {Direccion -6  1.5 23}
+	Arbol4 {Direccion -6  1.5 20}
+	Arbol5 {Direccion -7  1.5 18}
+	Arbol1 {Direccion -8  1.5 15 }
+	Arbol1 {Direccion -9  1.5 10 }
+	Arbol2 {Direccion -10  1.5 8}
+	Arbol3 {Direccion -9  1.5 5}
+	Arbol4 {Direccion -11  1.5 3}
+	Arbol5 {Direccion -8  1.5 0}
+	Arbol1 {Direccion -7  1.5 -5 }
+	Arbol1 {Direccion -7  1.5 -7 }
+	Arbol2 {Direccion -6  1.5 -10}
+	Arbol3 {Direccion -6  1.5 -15}
+	Arbol1 {Direccion -7  1.5 -20 }
+	Arbol1 {Direccion -8  1.5 -25 }
+
+	Arbol1 {Direccion -3  1.5 74 }
+	Arbol1 {Direccion -2  1.5 72 }
+	Arbol2 {Direccion -1  1.5 70}
+	Arbol3 {Direccion 0  1.5 68}
+	Arbol4 {Direccion -3  1.5 65}
+	Arbol5 {Direccion -3  1.5 60}
+	Arbol1 {Direccion -4  1.5 55 }
+	Arbol1 {Direccion -3  1.5 50 }
+	Arbol2 {Direccion -2  1.5 45}
+	Arbol3 {Direccion -1  1.5 40}
+	Arbol4 {Direccion 0  1.5 38}
+	Arbol5 {Direccion 0  1.5 35}
+	Arbol1 {Direccion 0  1.5 30 }
+	Arbol2 {Direccion 0  1.5 25}
+	Arbol3 {Direccion 0  1.5 23}
+	Arbol4 {Direccion 0  1.5 20}
+	Arbol5 {Direccion 0  1.5 18}
+	Arbol1 {Direccion 0  1.5 15 }
+	Arbol1 {Direccion 0  1.5 10 }
+	Arbol2 {Direccion 0  1.5 8}
+	Arbol3 {Direccion -3  1.5 5}
+	Arbol4 {Direccion -1  1.5 3}
+	Arbol4 {Direccion -2  1.5 0}
+	Arbol4 {Direccion -2  1.5 -5 }
+	Arbol4 {Direccion -2  1.5 -7 }
+	Arbol4 {Direccion -2  1.5 -10}
+	Arbol3 {Direccion -2  1.5 -15}
+	Arbol1 {Direccion -2  1.5 -20 }
+	Arbol1 {Direccion -3  1.5 -25 }
+
+
+	Arbol1 {Direccion 3  1.5 74 }
+	Arbol1 {Direccion 2  1.5 72 }
+	Arbol2 {Direccion 1  1.5 70}
+	Arbol3 {Direccion 0  1.5 68}
+	Arbol4 {Direccion 3  1.5 65}
+	Arbol5 {Direccion 3  1.5 60}
+	Arbol1 {Direccion 4  1.5 55 }
+	Arbol1 {Direccion 3  1.5 50 }
+	Arbol2 {Direccion 2  1.5 45}
+	Arbol3 {Direccion 1  1.5 40}
+	Arbol4 {Direccion 4  1.5 38}
+	Arbol5 {Direccion 4  1.5 35}
+	Arbol1 {Direccion 4  1.5 30 }
+	Arbol2 {Direccion 4  1.5 25}
+	Arbol3 {Direccion 4  1.5 23}
+	Arbol4 {Direccion 4  1.5 20}
+	Arbol5 {Direccion 4  1.5 18}
+	Arbol1 {Direccion 4  1.5 15 }
+	Arbol1 {Direccion 4  1.5 10 }
+	Arbol2 {Direccion 4  1.5 8}
+	Arbol3 {Direccion 3  1.5 5}
+	Arbol4 {Direccion 1  1.5 3}
+	Arbol5 {Direccion 2  1.5 0}
+	Arbol1 {Direccion 2  1.5 -5 }
+	Arbol1 {Direccion 2  1.5 -7 }
+	Arbol1 {Direccion 2  1.5 -10}
+	Arbol1 {Direccion 2  1.5 -15}
+	Arbol1 {Direccion 2  1.5 -20 }
+	Arbol1 {Direccion 3  1.5 -25 }
+
+
+	Arbol1 {Direccion 6  1.5 74 }
+	Arbol2 {Direccion 7  1.5 72 }
+	Arbol2 {Direccion 8  1.5 70}
+	Arbol3 {Direccion 9  1.5 68}
+	Arbol2 {Direccion 6  1.5 65}
+	Arbol2 {Direccion 6  1.5 60}
+	Arbol2 {Direccion 6  1.5 55 }
+	Arbol3 {Direccion 6  1.5 50 }
+	Arbol3 {Direccion 6  1.5 45}
+	Arbol3 {Direccion 6  1.5 40}
+	Arbol4 {Direccion 7  1.5 38}
+	Arbol5 {Direccion 7  1.5 35}
+	Arbol5 {Direccion 7  1.5 30 }
+	Arbol2 {Direccion 7  1.5 25}
+	Arbol3 {Direccion 9  1.5 23}
+	Arbol4 {Direccion 9  1.5 20}
+	Arbol5 {Direccion 9  1.5 18}
+	Arbol1 {Direccion 9  1.5 15 }
+	Arbol5 {Direccion 9  1.5 10 }
+	Arbol2 {Direccion 9  1.5 8}
+	Arbol3 {Direccion 9  1.5 5}
+	Arbol4 {Direccion 9  1.5 3}
+	Arbol5 {Direccion 9  1.5 0}
+	Arbol1 {Direccion 9  1.5 -5 }
+	Arbol1 {Direccion 7  1.5 -7 }
+	Arbol2 {Direccion 7  1.5 -10}
+	Arbol3 {Direccion 7  1.5 -15}
+	Arbol1 {Direccion 7  1.5 -20 }
+	Arbol5 {Direccion 7  1.5 -25 }
+
+	Arbol1 {Direccion 10  1.5 74 }
+	Arbol2 {Direccion 11  1.5 72 }
+	Arbol2 {Direccion 12  1.5 70}
+	Arbol3 {Direccion 12  1.5 68}
+	Arbol2 {Direccion 12  1.5 65}
+	Arbol2 {Direccion 13  1.5 60}
+	Arbol2 {Direccion 14  1.5 55 }
+	Arbol3 {Direccion 15  1.5 50 }
+	Arbol3 {Direccion 16  1.5 45}
+	Arbol3 {Direccion 17  1.5 40}
+	Arbol4 {Direccion 18  1.5 38}
+	Arbol5 {Direccion 19  1.5 35}
+	Arbol5 {Direccion 20  1.5 30 }
+	Arbol2 {Direccion 21  1.5 25}
+	Arbol3 {Direccion 20  1.5 23}
+	Arbol4 {Direccion 19  1.5 20}
+	Arbol5 {Direccion 10  1.5 18}
+	Arbol1 {Direccion 10  1.5 15 }
+	Arbol5 {Direccion 11  1.5 10 }
+	Arbol2 {Direccion 12  1.5 8}
+	Arbol3 {Direccion 13  1.5 5}
+	Arbol4 {Direccion 14  1.5 3}
+	Arbol5 {Direccion 15  1.5 0}
+	Arbol1 {Direccion 16  1.5 -5 }
+	Arbol1 {Direccion 17  1.5 -7 }
+	Arbol2 {Direccion 18  1.5 -10}
+	Arbol3 {Direccion 19  1.5 -15}
+	Arbol1 {Direccion 20  1.5 -20 }
+	Arbol5 {Direccion 21  1.5 -25 }
+
+	Arbol1 {Direccion 25  1.5 -5 }
+	Arbol1 {Direccion 25  1.5 -7 }
+	Arbol2 {Direccion 23  1.5 -10}
+	Arbol3 {Direccion 22  1.5 -15}
+	Arbol1 {Direccion 26  1.5 -20 }
+	Arbol5 {Direccion 27  1.5 -25 }
+
+	Arbol1 {Direccion 30  1.5 74 }
+	Arbol2 {Direccion 31  1.5 72 }
+	Arbol2 {Direccion 25  1.5 70}
+	Arbol3 {Direccion 35  1.5 68}
+	Arbol2 {Direccion 35  1.5 65}
+	Arbol2 {Direccion 26  1.5 60}
+	Arbol2 {Direccion 27  1.5 55 }
+	Arbol3 {Direccion 28  1.5 50 }
+	Arbol3 {Direccion 29  1.5 45}
+	Arbol3 {Direccion 30  1.5 40}
+	Arbol4 {Direccion 30  1.5 38}
+	Arbol5 {Direccion 30  1.5 35}
+	Arbol5 {Direccion 23  1.5 30 }
+	Arbol2 {Direccion 21  1.5 25}
+	Arbol3 {Direccion 29  1.5 23}
+	Arbol4 {Direccion 34  1.5 20}
+	Arbol5 {Direccion 37  1.5 18}
+	Arbol1 {Direccion 37  1.5 15 }
+	Arbol5 {Direccion 38  1.5 10 }
+	Arbol2 {Direccion 39  1.5 8}
+	Arbol3 {Direccion 40  1.5 5}
+	Arbol4 {Direccion 40  1.5 3}
+	Arbol5 {Direccion 40  1.5 0}
+	Arbol1 {Direccion 40  1.5 -5 }
+	Arbol1 {Direccion 40  1.5 -7 }
+	Arbol2 {Direccion 40  1.5 -10}
+	Arbol3 {Direccion 40  1.5 -15}
+	Arbol1 {Direccion 40  1.5 -20 }
+	Arbol5 {Direccion 35  1.5 -25 }
+
+
+	Arbol1 {Direccion 41  1.5 74 }
+	Arbol2 {Direccion 41  1.5 72 }
+	Arbol2 {Direccion 41  1.5 70}
+	Arbol3 {Direccion 43  1.5 68}
+	Arbol2 {Direccion 44  1.5 65}
+	Arbol2 {Direccion 41  1.5 60}
+	Arbol2 {Direccion 41  1.5 55 }
+	Arbol3 {Direccion 50  1.5 50 }
+	Arbol3 {Direccion 50  1.5 45}
+	Arbol3 {Direccion 49  1.5 40}
+	Arbol4 {Direccion 48  1.5 38}
+	Arbol5 {Direccion 47  1.5 35}
+	Arbol5 {Direccion 46  1.5 30 }
+	Arbol2 {Direccion 45  1.5 25}
+	Arbol3 {Direccion 44  1.5 23}
+	Arbol4 {Direccion 43  1.5 20}
+	Arbol5 {Direccion 42  1.5 18}
+	Arbol1 {Direccion 43  1.5 15 }
+	Arbol5 {Direccion 50  1.5 10 }
+	Arbol2 {Direccion 50  1.5 8}
+	Arbol3 {Direccion 55  1.5 5}
+	Arbol4 {Direccion 55  1.5 3}
+	Arbol5 {Direccion 55  1.5 0}
+	Arbol1 {Direccion 55  1.5 -5 }
+	Arbol1 {Direccion 55  1.5 -7 }
+	Arbol2 {Direccion 53  1.5 -10}
+	Arbol3 {Direccion 53  1.5 -15}
+	Arbol1 {Direccion 52  1.5 -20 }
+	Arbol5 {Direccion 50  1.5 -25 }
+
+	Arbol1 {Direccion 51  1.5 74 }
+	Arbol2 {Direccion 60  1.5 72 }
+	Arbol2 {Direccion 55  1.5 70}
+	Arbol3 {Direccion 55  1.5 68}
+	Arbol2 {Direccion 55  1.5 65}
+	Arbol2 {Direccion 56  1.5 60}
+	Arbol2 {Direccion 51  1.5 55 }
+	Arbol3 {Direccion 50  1.5 50 }
+	Arbol3 {Direccion 51  1.5 45}
+	Arbol3 {Direccion 58  1.5 40}
+	Arbol4 {Direccion 57  1.5 38}
+	Arbol5 {Direccion 57  1.5 35}
+	Arbol5 {Direccion 55  1.5 30 }
+	Arbol2 {Direccion 61  1.5 25}
+	Arbol3 {Direccion 62  1.5 23}
+	Arbol4 {Direccion 62  1.5 20}
+	Arbol5 {Direccion 62  1.5 18}
+	Arbol1 {Direccion 62  1.5 15 }
+	Arbol5 {Direccion 55  1.5 10 }
+	Arbol2 {Direccion 55  1.5 8}
+	Arbol3 {Direccion 55  1.5 5}
+	Arbol4 {Direccion 55  1.5 3}
+	Arbol5 {Direccion 53  1.5 0}
+	Arbol1 {Direccion 52  1.5 -5 }
+	Arbol1 {Direccion 58  1.5 -7 }
+	Arbol2 {Direccion 58  1.5 -10}
+	Arbol3 {Direccion 60  1.5 -15}
+	Arbol1 {Direccion 60  1.5 -20 }
+	Arbol5 {Direccion 60  1.5 -25 }
+
+
+
+	Arbol1 {Direccion 60  1.5 74 }
+	Arbol2 {Direccion 60  1.5 72 }
+	Arbol2 {Direccion 60  1.5 70}
+	Arbol3 {Direccion 60  1.5 68}
+	Arbol2 {Direccion 60  1.5 65}
+	Arbol2 {Direccion 60  1.5 60}
+	Arbol2 {Direccion 60  1.5 55 }
+	Arbol3 {Direccion 60  1.5 50 }
+	Arbol3 {Direccion 60  1.5 45}
+	Arbol3 {Direccion 60  1.5 40}
+	Arbol4 {Direccion 60  1.5 38}
+	Arbol5 {Direccion 61  1.5 35}
+	Arbol5 {Direccion 61  1.5 30 }
+	Arbol2 {Direccion 61  1.5 25}
+	Arbol3 {Direccion 62  1.5 23}
+	Arbol4 {Direccion 62  1.5 20}
+	Arbol5 {Direccion 62  1.5 18}
+	Arbol1 {Direccion 62  1.5 15 }
+	Arbol5 {Direccion 63  1.5 10 }
+	Arbol2 {Direccion 63  1.5 8}
+	Arbol3 {Direccion 64  1.5 5}
+	Arbol4 {Direccion 65  1.5 3}
+	Arbol5 {Direccion 65  1.5 0}
+	Arbol1 {Direccion 66  1.5 -5 }
+	Arbol1 {Direccion 66  1.5 -7 }
+	Arbol2 {Direccion 66  1.5 -10}
+	Arbol3 {Direccion 66  1.5 -15}
+	Arbol1 {Direccion 66  1.5 -20 }
+	Arbol5 {Direccion 66  1.5 -25 }
+
+
+	Arbol1 {Direccion 67  1.5 73 }
+	Arbol2 {Direccion 68  1.5 72 }
+	Arbol2 {Direccion 69  1.5 70}
+	Arbol3 {Direccion 70  1.5 68}
+	Arbol2 {Direccion 70  1.5 65}
+	Arbol2 {Direccion 70  1.5 60}
+	Arbol2 {Direccion 70  1.5 55 }
+	Arbol3 {Direccion 70  1.5 50 }
+	Arbol3 {Direccion 71  1.5 45}
+	Arbol3 {Direccion 72  1.5 40}
+	Arbol4 {Direccion 73  1.5 38}
+	Arbol5 {Direccion 74  1.5 35}
+	Arbol5 {Direccion 74  1.5 30 }
+	Arbol2 {Direccion 74  1.5 25}
+	Arbol3 {Direccion 74  1.5 23}
+	Arbol4 {Direccion 73  1.5 20}
+	Arbol5 {Direccion 72  1.5 18}
+	Arbol1 {Direccion 73  1.5 15 }
+	Arbol5 {Direccion 70  1.5 10 }
+	Arbol2 {Direccion 70  1.5 8}
+	Arbol3 {Direccion 70  1.5 5}
+	Arbol4 {Direccion 70  1.5 3}
+	Arbol5 {Direccion 70  1.5 0}
+	Arbol1 {Direccion 67  1.5 -5 }
+	Arbol1 {Direccion 67  1.5 -7 }
+	Arbol2 {Direccion 67  1.5 -10}
+	Arbol3 {Direccion 67  1.5 -15}
+	Arbol1 {Direccion 67  1.5 -20 }
+	Arbol5 {Direccion 67  1.5 -25 }
+
+	Arbol5 {Direccion 50  1.5 0 }
+
+
